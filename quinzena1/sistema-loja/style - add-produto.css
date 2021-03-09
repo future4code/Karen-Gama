@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#site{
+    background-image: linear-gradient(rgb(213, 128, 255), rgb(230, 179, 255));
+    width: 800px;
+    height: 400px;
+
+
+}
+
+#cabecalho{
+    background-color:#d580ff;
+    width: 800px;
+    height: 110px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 3px dashed #ffffff 
+}
+
+#add-produto{
+    width: 800px;
+    height: 180px;
+}
+
+#rodape{
+    width: 800px;
+    height: 110px;
+    background-color: #d580ff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+
+    #conteudo-left{
+    width:400px;
+    height:110px;
+    float:left;
+    background-color:#d580ff;
+    }
+
+    #conteudo-right{
+    width:400px;
+    height:110px;
+    float:left;
+    background-color:#d580ff;
+    }

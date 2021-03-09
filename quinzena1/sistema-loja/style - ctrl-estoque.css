@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#site{
+    background-color: rgb(255, 102, 102);
+    background-image: linear-gradient(rgb(255, 102, 102), rgb(255, 153, 153));
+    width: 800px;
+    height: 1330px;
+}
+
+#cabecalho{
+    background-color: rgb(255, 102, 102);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 800px;
+    height; 100px;
+    border-bottom: 3px dashed #ffffff 
+}
+
+#tabela{
+    background-image: linear-gradient(rgb(255, 102, 102), rgb(255, 153, 153));
+    width: 800px;
+    height: 1115px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#rodape{
+    width: 800px;
+    height: 110px;
+    background-color: #ff6666;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+
+    #conteudo-left{
+    width:400px;
+    height:110px;
+    float:left;
+    background-color:#ff6666;
+    }
+
+    #conteudo-right{
+    width:400px;
+    height:110px;
+    float:left;
+    background-color:#Ff6666;
+    }
