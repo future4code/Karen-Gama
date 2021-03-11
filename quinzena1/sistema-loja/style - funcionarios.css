@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#site{
+    background-color: #4da9ff;
+    width: 800px;
+    height: 310px;
+}
+
+#cabecalho{
+    background-color: #3399ff;  
+    width: 800px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 3px dashed #ffffff 
+}
+
+#funcionarios{
+    background-image: linear-gradient(rgb(77, 166, 255),rgb(179, 218, 255));
+    width: 800px;
+    height: 130px;
+}
+
+#rodape{
+    width: 800px;
+    height: 100px;
+    background-color: #3399ff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+
+    #conteudo-left{
+    width:400px;
+    height:110px;
+    float:left;
+    background-color:#cce6ff;
+    }
+
+    #conteudo-right{
+    width:400px;
+    height:110px;
+    float:left;
+    background-color:#cce6ff;
+    }
