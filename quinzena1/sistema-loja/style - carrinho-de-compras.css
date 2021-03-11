@@ -1,0 +1,83 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    }
+
+#site{
+    background-color: #45B649;
+    background-image: linear-gradient(#45B649, #DCE35B);
+    width: 800px;
+    height: 640px;
+    }
+
+#cabecalho{
+    width: 800px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px dashed white;
+    color: black;
+    }
+
+#informacoes-da-compra{
+    width: 800px;
+    height: 160px;
+    padding-top: 20px;
+    }
+
+    #label-produtos{
+        width:400px;
+        height:160px;
+        float:left;
+        }
+    
+    #label-quantidade{
+        width:400px;
+        height:160px;
+        float:left;
+        }
+
+#vendedor{
+    width: 800px;
+    height: 130px;
+    padding-top: 20px;
+    }
+
+#opcoes-de-pagamento{
+    width: 800px;
+    height: 70px;
+    text-align: center;
+    }
+
+    button{
+    background-color: white;
+    }
+
+    button:hover{
+    background-color: grey;
+    }
+ 
+#rodape{
+    width: 800px;
+    height: 110px;
+    background-color: #DCE35B;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+
+    #conteudo-left{
+    width:400px;
+    height:110px;
+    float:left;
+    background-color:#DCE35B;
+    }
+
+    #conteudo-right{
+    width:400px;
+    height:110px;
+    float:left;
+    background-color:#DCE35B;
+    }
+
