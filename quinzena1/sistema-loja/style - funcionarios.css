@@ -6,7 +6,7 @@ body{
 #site{
     background-color: #4da9ff;
     width: 800px;
-    height: 310px;
+    height: 320px;
 }
 
 #cabecalho{
@@ -22,7 +22,7 @@ body{
 #funcionarios{
     background-image: linear-gradient(rgb(77, 166, 255),rgb(179, 218, 255));
     width: 800px;
-    height: 130px;
+    height: 140px;
 }
 
 #rodape{
