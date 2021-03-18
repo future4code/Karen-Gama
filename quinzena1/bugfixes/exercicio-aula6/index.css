@@ -110,6 +110,17 @@ td button {
     height: 30px;
     border-radius: 5px;
     color: black;
+    
+}
+
+td button:hover{
+    background-color: #f9d639
+
+}
+
+td button:active{
+    background-color: #fadf63;
+    text-decoration: white;
 }
 
 .container-do-search {
