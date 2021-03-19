@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    }
+
+#site{
+    width: 1365px;
+    height: 650px;
+    background-image: linear-gradient(#FF416C, #FF4B2B);
+}
+
+#cabecalho{
+    width: 1365px;
+    height: 30px;
+    font: 15px Arial, sans-serif;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+#contato{
+    width: 1365px;
+    height: 350px;
+    font: 15px Arial, sans-serif;
+}
+    #contato-1{
+        width: 500px;
+        height: 350px;
+        float: left;
+        text-align: right;  
+        margin-right: 20px;
+    }
+
+    #contato-2{
+        width: 800px;
+        height: 350px;
+        float: left;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+p{
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: #FF416C;
+    color: white;
+    }
+
+#rodape{
+    font: 15px Arial, sans-serif;
+    width: 1365px;
+    height: 150px;
+    border-top: 1px solid white;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    }
+
+    a:link {
+        text-decoration: none;
+      }
+      
+      a:visited {
+        text-decoration: none;
+      }
+      
+      a:hover {
+        text-decoration: underline;
+      }
+      
+      a:active {
+        text-decoration: underline;
+      }
+      

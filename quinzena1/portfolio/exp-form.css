@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    }
+
+#site{
+    width: 1365px;
+    height: 650px;
+    background-image: linear-gradient(#333333, #dd1818);
+}
+
+#cabecalho{
+    width: 1365px;
+    height: 30px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    font-size: 18px;
+    }
+
+#profissional{
+    font-size: 20px;
+    width: 1365px;
+    height: 310px;
+    }
+
+    #profissional-1{
+      width: 600px;
+      height: 310px;
+      float: left;
+    }
+
+    #profissional-2{
+      height: 310px;
+      float: left;
+    }
+
+
+#rodape{
+    font-size: 18px;
+    width: 1365px;
+    height: 150px;
+    border-top: 1px solid white;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    }
+
+    a:link {
+        text-decoration: none;
+      }
+      
+      a:visited {
+        text-decoration: none;
+      }
+      
+      a:hover {
+        text-decoration: underline;
+      }
+      
+      a:active {
+        text-decoration: underline;
+      }

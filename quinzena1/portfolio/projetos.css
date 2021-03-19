@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    }
+
+    a:link{
+        text-decoration: none;
+        font-size: 18px;
+            }
+          
+    a:visited{
+            text-decoration: none;
+            }
+          
+    a:hover{
+            text-decoration: underline;
+            }
+          
+    a:active{
+            text-decoration: underline;
+            }
+
+#site{
+    width: 1360px;
+    height: 650px;
+    border: 1px solid white;
+    background-color: royalblue;
+    background-image: linear-gradient(#fc00ff, #00dbde);
+    }
+
+#cabecalho{
+    width: 1360px;
+    height: 30px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    }
+
+#projetos{
+    width: 1360px;
+    height: 250px;
+    margin-top: 20px;
+}
+
+    #projetos-1{
+        width: 500px;
+        height: 250px; 
+        float: left;
+        align-items: right;
+        align-content: right;
+        text-align: right;
+    }
+
+    #projetos-2{
+        width: 680px;
+        height: 250px;
+        float: left;
+        margin-left: 10px;
+        align-items: left;
+        align-content: left;
+        text-align: left;
+    }
+
+#rodape{
+    width: 1365px;
+    height: 150px;
+    border-top: 1px solid white;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+

@@ -1,0 +1,72 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(Imagens/gif-estrelas.gif);
+    }
+
+a{
+    margin-top: 3px;
+}
+
+a:link{
+        text-decoration: none;
+        }
+      
+a:visited{
+        text-decoration: none;
+      }
+      
+a:hover{
+        text-decoration: underline;
+      }
+      
+a:active{
+        text-decoration: underline;
+      }
+
+#site{
+    
+    width: 900px;
+    height: 630px;
+    margin-left: 200px;
+    border: 1px solid white;
+    }
+
+#cabecalho{
+    width: 900px;
+    height: 30px;
+    font: 15px Arial, sans-serif;
+    text-align: center;
+    border: 1px solid white;
+    }
+
+#apresentacao{
+    font: 20px Arial, sans-serif;
+    margin-left: 10px;
+    align-items: right;
+    width: 900px;
+    height: 600px;
+    }
+
+    #apresentacao-p1{
+        width:700px;
+        height: 60px;
+        float:left;
+        }
+    
+        #apresentacao-p2{
+        width:200px;
+        height:200px;
+        float:left;
+        margin-top: 20px;
+        }
+
+
+
+
+
+
+
+
+
+
