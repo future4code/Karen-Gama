@@ -1,0 +1,200 @@
+/*A largura de tela acima de 600px mostrará a tela original do exercício */
+
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    border: 1px solid black;
+    margin-bottom: 1vh;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#first-block {
+    background-color: red;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+}
+
+.blue-block {
+    background-color: blue;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32%;
+}
+
+.yellow-block {
+    background-color: yellow;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32%;
+}
+
+.green-block {
+    background-color: green;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32%;
+}
+
+.black-block {
+    background-color: black;
+    color: white;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 49%;
+}
+
+.white-block {
+    background-color: white;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32%;
+}
+
+/*A largura da tela entre 0 e 320px terá cada bloco ocupando uma linha */
+
+@media screen and (max-width: 320px) and (min-width: 0px) {
+    #main-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    #first-block {
+        background-color: red;
+        color: red;
+        width: 100%;
+        height: 10vh;
+        display: flex;
+    }
+    .blue-block {
+        background-color: blue;
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .yellow-block {
+        background-color: yellow;
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .green-block {
+        background-color: green;
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .black-block {
+        background-color: black;
+        color: white;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .white-block {
+        background-color: white;
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+/*A largura da tela entre 321 e 600px mostrará alguns blocos ocupando parcialmente algumas linhas */
+
+@media screen and (max-width: 600px) and (min-width: 321px) {
+    #main-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    #first-block {
+        background-color: red;
+        color: red;
+        width: 100%;
+        height: 10vh;
+        display: flex;
+    }
+    .blue-block {
+        background-color: blue;
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 49%;
+    }
+    .yellow-block {
+        background-color: yellow;
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 49%;
+    }
+    .green-block {
+        background-color: green;
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .black-block {
+        background-color: black;
+        color: white;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 49%;
+    }
+    .white-block {
+        background-color: white;
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 49%;
+    }
+    div :last-child {
+        background-color: white;
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}
